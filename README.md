@@ -6,7 +6,7 @@ UnityVersion: `2021.3.11f1` [download](https://unity.com/releases/editor/archive
 # How to name profect
 เลือก Template -> 3D (URP)
 ตั้งชื่อโปรเจค vr101stdตามด้วยรหัสนักศึกษาไม่เอาขีด ตัวเล็กหมดไม่มีเว้นวรรค
-`vr101std5450401721`
+`vr101std6130401287`
 
 *ข้อแนะนำเก็บโปรเจคไว้ใน folder ที่เป็นภาษาอังกฤษ ไม่มีเว้นวรรค เช่น
 D:\stdproject\unityproject
