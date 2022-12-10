@@ -178,6 +178,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: pistol
       objectReference: {fileID: 0}
+    - target: {fileID: 4511655667520406305, guid: 087e2a9d318d8b842b11b221d1f79534, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511655667520406309, guid: 087e2a9d318d8b842b11b221d1f79534, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511655667520406311, guid: 087e2a9d318d8b842b11b221d1f79534, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 087e2a9d318d8b842b11b221d1f79534, type: 3}
 --- !u!1 &4220864 stripped
@@ -477,7 +489,7 @@ GameObject:
   - component: {fileID: 237136960}
   - component: {fileID: 237136965}
   - component: {fileID: 237136964}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Kine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -826,7 +838,7 @@ GameObject:
   - component: {fileID: 447501349}
   - component: {fileID: 447501354}
   - component: {fileID: 447501353}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Velo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1051,7 +1063,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 479077985}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: AttatchPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1592,7 +1604,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 609624990}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: BulletSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3543,7 +3555,7 @@ GameObject:
   - component: {fileID: 1757028234}
   - component: {fileID: 1757028235}
   - component: {fileID: 1757028236}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: XR Origin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3952,7 +3964,7 @@ GameObject:
   - component: {fileID: 1990389770}
   - component: {fileID: 1990389775}
   - component: {fileID: 1990389774}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Instan
   m_TagString: Untagged
   m_Icon: {fileID: 0}

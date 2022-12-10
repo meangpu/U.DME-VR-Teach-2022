@@ -14,7 +14,6 @@ public class FireOnActivate : MonoBehaviour
         grabAbleScpt.activated.AddListener(FireBullet);
     }
 
-
     void FireBullet(ActivateEventArgs arg)
     {
         GameObject newBullet = Instantiate(_bulletPrefab);
