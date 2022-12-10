@@ -231,8 +231,8 @@ Transform:
   - {fileID: 963194228}
   - {fileID: 1695123772}
   - {fileID: 1753892354}
-  - {fileID: 1093462300}
   - {fileID: 589097444}
+  - {fileID: 1093462300}
   m_Father: {fileID: 1757028227}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -389,7 +389,7 @@ Transform:
   m_Children:
   - {fileID: 2146080739}
   m_Father: {fileID: 175863122}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &589097445
 MonoBehaviour:
@@ -1330,7 +1330,7 @@ Transform:
   m_Children:
   - {fileID: 164183675}
   m_Father: {fileID: 175863122}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1093462301
 MonoBehaviour:
@@ -2510,6 +2510,7 @@ GameObject:
   - component: {fileID: 1757028232}
   - component: {fileID: 1757028234}
   - component: {fileID: 1757028235}
+  - component: {fileID: 1757028236}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -2745,6 +2746,68 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 1757028229}
+--- !u!114 &1757028236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757028225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12d198e19eee642468288c7a389632bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _leftTeleportation: {fileID: 589097443}
+  _rightTeleportation: {fileID: 1093462299}
+  _leftTeleportBtn:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Left Teleport Btn
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: ecc23ca2-ba58-4a6b-bfbc-d742d45f3bf8
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  _rightTeleportBtn:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Teleport Btn
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 64b17b40-4fa9-4248-a8c1-f0f2c9420526
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  _leftGrabBtn:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Left Grab Btn
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 28d1336d-3e1e-4a1f-8337-c095c76243db
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  _rightGrabBtn:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Grab Btn
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: c8d04f13-39d8-43e8-b87d-24f45bc5e8b3
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -1758520528963094988, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1811881119
 GameObject:
   m_ObjectHideFlags: 0
